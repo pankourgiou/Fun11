@@ -7,7 +7,7 @@ y = "The Sound Missiles"
 z = "Diary of Dreams Exile"
 w = "Black Sabbath Orchid"
 a = "Myles Kennedy a Thousand words"
-b = "Midnight suns Iknow when the sun rises I know when the sun sets"
+b = "Midnight suns I know when the sun rises I know when the sun sets"
 c = "Myles Kennedy In the year of the tiger"
 
 print(bool(x))
