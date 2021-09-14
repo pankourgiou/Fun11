@@ -2,7 +2,7 @@ import time
 
 
 t1 = time.time()
-x = "Panx Romana state closed" 
+x = "Tiesto & Sevenn Boom" 
 y = "The Sound Missiles"
 z = "Diary of Dreams Exile"
 w = "Black Sabbath Orchid"
