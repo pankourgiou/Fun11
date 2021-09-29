@@ -1,23 +1,12 @@
-import time
+from matplotlib import pyplot as plt 
+import numpy as np
+from PIL import Image
+im=Image.open("MonsterMagnet.jpg")
+pxl=list(im.getdata())
+print ("pxl")
+columnsize,rowsize=im.size
 
-
-t1 = time.time()
-x = "Tiesto & Sevenn Boom" 
-y = "The Sound Missiles"
-z = "Diary of Dreams Exile"
-w = "Black Sabbath Orchid"
-a = "Myles Kennedy a Thousand words"
-b = "Midnight suns I know when the sun rises I know when the sun sets"
-c = "Myles Kennedy In the year of the tiger"
-
-print(bool(x))
-print(bool(y))
-print(bool(z))
-print(bool(w))
-print("Perfect take-true words")
-print("cool")
-print("cool")
-
-t2 = time.time()
-t = t2 - t1
-print("Elapsed time is : ", t, " seconds")
+a = np.array(pxl)
+plt.hist(a, bins = 255)
+plt.title("histogram") 
+plt.show()
